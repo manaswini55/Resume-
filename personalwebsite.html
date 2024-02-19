@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <style>
+        /* Reset styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffd700;
+        }
+
+        section {
+            padding: 50px 0;
+        }
+
+        section h2 {
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 28px;
+            color: #007bff;
+        }
+
+        .portfolio-item {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .portfolio-item img {
+            max-width: 100%;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .portfolio-item img:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Baruri Jwala Manaswini</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Motivated and detail-oriented Computer Science and Engineering student with a passion for solving complex problems and leveraging technology to innovate. Proficient in multiple programming languages including Java, Python, and C++, with hands-on experience in web development, data structures, and algorithms. Skilled in software development methodologies and version control systems like Git. Actively seeking opportunities to apply my technical skills and contribute to dynamic teams in the software engineering field. Strong communication skills and a collaborative mindset, eager to learn and adapt in fast-paced environments.</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio-item">
+                <h3>Project 1</h3>
+                <h4 align="center"> CGPA CALCULATOR | C++, Object-Oriented Programming</h4>
+                <p> Input Gathering: Design a user interface where users can input their course grades
+                    and corresponding credit hours.
+                    Calculation Logic: Implement the backend logic to convert letter grades to grade
+                    points, calculate weighted averages, and compute the CGPA.
+                    Result Display: Present the calculated CGPA to the user, ensuring clarity and
+                    accuracy in the presentation of academic performance.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Project 2</h3>
+                <h4 align="center"> Employee Management System | Using Doubly Linked List</h4>
+                <p> Employee Data Structure: Define a struct to represent employee information, including attributes such as
+                    employee ID, name, position, salary, etc.
+                    Doubly Linked List Implementation: Create functions to perform operations on the doubly linked list,
+                    including insertion, deletion, searching, and updating employee records.
+                    User Interface: Develop a user interface to interact with the employee management system, allowing users
+                    to add, remove, search for, and modify employee records, providing a seamless experience for managing
+                    employee data.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Manaswini</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
